@@ -59,6 +59,10 @@ gameArea.appendChild(h2);
 gameArea.appendChild(div1);
 gameArea.appendChild(ul);
 
+
+
+// Functions for each question
+
 function questionOne () {
     ul.appendChild(li1);
     ul.appendChild(li2);
@@ -160,6 +164,11 @@ function answerClick(event) {
 
 const high_Scores = 'high scores';
 
+
+
+
+// Saves score to local storage and pulls from local storage
+
 function json() {
     var userScore = {
         total: time,
@@ -192,6 +201,8 @@ function json() {
 };
 
 
+
+// final screen of game before saving
 
 function saveScore() {
        gameArea.innerHTML = " ";
