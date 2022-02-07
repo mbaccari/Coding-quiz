@@ -10,3 +10,30 @@ li:hover {
     background-color: gray;
     cursor: pointer;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div1 {
+    background: url(../images/921952701.jpg);
+    height: 300px;
+    width: 400px;
+    background-position: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#gameArea {
+    display: flex;
+}
+
+#showScore {
+    display: none;
+}
